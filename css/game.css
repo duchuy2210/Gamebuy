@@ -1,0 +1,110 @@
+section{
+    margin-top: 100px;
+}
+.loginID .game-name{
+    display: flex;
+    margin-bottom: 30px;
+}
+.loginID .game-name .information{
+    margin: 20px 20px;
+}
+.loginID{
+    width: 60%;
+    margin: 0 auto;
+}
+.form-floating{
+    display: flex;
+    align-items: center;
+}
+.form-floating .form-control{
+    width: 30%;
+    margin-right: 20px;
+}
+.form-floating button{
+    width:30px;
+    height: 30px;
+    background-color:rgb(250, 198, 41);
+    border: none;
+    border-radius: 5px;
+}
+.form-floating button:hover{
+    opacity: 0.5;
+}
+.loginID p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+/* product */
+.product{
+    background-image: linear-gradient(rgb(120, 118, 118),rgb(52, 52, 52));
+    padding: 50px 300px;
+}
+.product h5{
+     color: #fff;
+}
+.product .product-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product .product-list .thumbnail{
+    width: calc(25% - 40px);
+    background-color: #fff;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 20px 20px;
+    border-radius: 5px;
+}
+.product .product-list .thumbnail p{
+    margin: 10px 0;
+}
+.product .product-list .thumbnail:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
+/* paycard */
+.pay-method{
+    background-color: rgb(244, 240, 240);
+    padding: 50px 300px;
+}
+.pay-method .paycard{
+    width: 60%;
+    border-radius: 5px;
+    border: gray 1px solid;
+    box-shadow: 0px 2px 6px gray;
+    margin: 20px;
+}
+.pay-method .paycard img{
+    width: 100%;
+}
+/* form pay */
+.pay-form{
+    padding: 50px 300px;
+    width: 1050px;
+    margin-bottom: 50px;
+}
+.pay-form select,.pay-form input{
+    margin: 20px 0;
+    height: 40px;
+}
+.pay-form button{
+    float: right;
+    border: none;
+    background-color: rgb(255, 200, 0);
+    font-weight: 700;
+    padding: 10px 15px;
+}
+.pay-form button:hover{
+    background-color: gray;
+    color: #fff;
+}
+/* introduce-section */
+.introduce-section{
+    padding: 50px 300px;
+    background-color: rgb(244, 240, 240);
+}
+.introduce-section .intro h5{
+    margin: 20px 0;
+}
+.introduce-section .intro a{
+    text-decoration: none;
+}

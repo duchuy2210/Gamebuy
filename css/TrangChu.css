@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+nav .img_ms{
+    width: 120px;
+    margin-bottom: 15px;
+}
+.navbar{
+    padding: 0;
+}
+nav .navbar-brand{
+    padding: 0;
+}
+nav .navlink{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+    opacity: 0.5;
+}
+nav .nav-item:hover .navlink{
+    opacity: 1;
+}
+.container-search{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.container-search #search{
+    width: 200px;
+    height: 35px;
+    background: #474f5f;
+    border: none;
+    font-size: 15px;
+    float: left;
+    color: #fff;
+    padding-left: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.container-search #search::-webkit-input-placeholder{
+    color: rgb(179, 177, 177);
+}
+.container-search .button-search{
+    border: none;
+    height: 35px;
+    width: 35px;
+    color: #4f5b66;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.slider{
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.slider .carousel img{
+    height: 300px;
+}
+/* gameChoose */
+.gameChoose h3{
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+.gameChoose form{
+    margin: 30px ;
+    display: flex;
+    vertical-align: middle;
+    white-space: nowrap;
+    justify-content: center;
+}
+.gameChoose form #search{
+    width: 800px;
+    font-size: 18px;
+    height: 40px;
+    padding-left: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.gameChoose form .button-search{
+    border: none;
+    background-color: black;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.gameList{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gameList .thumbnail{
+    border: 1px solid gray;
+    width: calc(25% - 40px);
+    margin: 20px 20px;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px -5px gray;
+    transition: all 1s;
+}
+.gameList .thumbnail img {
+    width: 30%;
+    padding: 10px;
+}
+.gameList .thumbnail:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.gameList a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.pagination{
+    justify-content: center;
+    padding: 100px 0;
+}
+.pagination a{
+    color: #000;
+    font-size: 700;
+}
+/* tutorial */
+.tutorial{
+    background-image: linear-gradient(rgb(146, 174, 251),rgb(98, 98, 237));
+}
+.tutorial .sologan{
+    text-align: center;
+    color: #fff;
+}
+.tutorial .tutorial-detail{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.tutorial .tutorial-detail .step img{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.tutorial .tutorial-detail .step h3{
+    font-size: 20px;
+    color: #fff;
+}
+/*  */
+.contact{
+    text-align: center;
+    background-color: #3e454b;
+    color: #fff;
+}
+.contact h3{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.contact-card{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.contact-card a{
+    background-color: #fff;
+    display: block;
+    width: 300px;
+    line-height: 2.5;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.contact-card i{
+    padding-right: 5px;
+}
